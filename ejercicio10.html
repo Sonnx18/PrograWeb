@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 10 - Convertidor de Temperatura</title>
+    <link rel="stylesheet" href="css/ejercicio10.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Convertidor de °C a °F</h1>
+
+        <form onsubmit="return convertir()">
+            <label for="celsius">Ingresa los grados Celsius:</label>
+            <input type="number" id="CCC" placeholder="Ejemplo: 25" required>
+            <button type="submit">Convertir</button>
+            <label for="fahrenheit">Resultado en grados Fahrenheit:</label>
+            <input type="text" id="FFF" readonly>
+
+        </form>
+    </div>
+
+    <script>
+        function convertir() {
+            var celsius = document.getElementById("CCC").value;
+            var resultado = document.getElementById("FFF");
+
+            var fahrenheit = (celsius * 9 / 5) + 32;
+            resultado.value = fahrenheit + " °F";
+
+            return false;
+        }
+    </script>
+
+</body>
+</html>
