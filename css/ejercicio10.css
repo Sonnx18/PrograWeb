@@ -23,6 +23,11 @@ h1 {
     text-align: center;
     color: #333;
 }
+p {
+    color:#cc0606;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
 
 label {
     margin-top: 25px;
@@ -37,10 +42,6 @@ input {
     margin-right: auto;
     box-sizing: border-box;
     display: block;
-}
-
-p{
-    color:#a8a8a8;
 }
 
 button {
