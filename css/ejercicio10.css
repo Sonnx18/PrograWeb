@@ -39,6 +39,10 @@ input {
     display: block;
 }
 
+p{
+    color:#a8a8a8;
+}
+
 button {
     margin-top: 20px;
     margin-bottom: 20px;
