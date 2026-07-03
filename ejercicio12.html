@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 12 - Convertidor de Pesos Mexicanos a Dólares</title>
+    <link rel="stylesheet" href="css/estiloform.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Convertidor de Pesos Mexicanos a Dólares</h1>
+        <p>Convierte pesos mexicanos a dólares ingresando una cantidad.</p>
+
+        
+        <form onsubmit="return convertir()">
+            <div class="formulario">
+            <label for="pesos">Ingresa los pesos mexicanos:</label>
+            <input type="number" id="PPPP" placeholder="Ejemplo: 500" min="0" required>
+            <button type="submit">Convertir</button>
+            <label for="dolares">Resultado en dólares:</label>
+            <input type="text" id="DDDD" readonly>
+            </div>
+
+        </form>
+    </div>
+
+<script src="js/ejercicio12.js"></script>
+
+</body>
+</html>
