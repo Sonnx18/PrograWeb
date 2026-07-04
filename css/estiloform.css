@@ -26,7 +26,7 @@ h1 {
 }
 p {
     color:#727272;
-    text-align: left;
+    text-align: justify;
     margin-bottom: 10px;
     font-size: 14px;
 }
@@ -62,3 +62,15 @@ button:hover {
     background-color: #cd0000;
 }
 
+.lista {
+    text-align: left;
+    color: #000000;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Ejercicio 12 - Convertidor de Pesos Mexicanos a Dólares</title>
     <link rel="stylesheet" href="css/estiloform.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
@@ -15,10 +16,10 @@
         <form onsubmit="return convertir()">
             <div class="formulario">
             <label for="pesos">Ingresa los pesos mexicanos:</label>
-            <input type="number" id="PPPP" placeholder="Ejemplo: 500" min="0" required>
+            <input type="number" id="MXN" placeholder="Ejemplo: 500" min="0" required>
             <button type="submit">Convertir</button>
             <label for="dolares">Resultado en dólares:</label>
-            <input type="text" id="DDDD" readonly>
+            <input type="text" id="USD" readonly>
             </div>
 
         </form>
