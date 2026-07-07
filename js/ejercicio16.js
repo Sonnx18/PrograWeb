@@ -1,17 +1,9 @@
-// Recibe dos números y regresa su suma
 const sumar = (a, b) => a + b;
-
-// Recibe dos números y regresa su resta
 const restar = (a, b) => a - b;
-
-// Recibe dos números y regresa su multiplicación
 const multiplicar = (a, b) => a * b;
-
-// Recibe dos números y regresa su división, cuidando la división entre cero
-const dividir = (a, b) => b !== 0 ? a / b : 'Error: División por cero';
+const dividir = (a, b) => b !== 0 ? a / b : 'Error: División por cero';//Cuida la división entre 0
 
 function calcularOperacion(operacion) {
-    // Leemos el texto de los dos inputs
     const valor1 = document.getElementById("numero1").value;
     const valor2 = document.getElementById("numero2").value;
 
@@ -31,7 +23,6 @@ function calcularOperacion(operacion) {
 
     let resultado;
 
-    // Según qué botón se presionó, llamamos a la función flecha correspondiente
     if (operacion === "suma") {
         resultado = sumar(numero1, numero2);
     } else if (operacion === "resta") {
